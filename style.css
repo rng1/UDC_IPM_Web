@@ -1,0 +1,72 @@
+/* Nordhealth Design Tokens */
+
+* {    
+    font-family: 'Nordhealth Sans', 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+    background-color: #fff;
+    color: #0c1a3d;
+}
+
+.error {
+    color: #b94d37;
+    font-size: 0.75rem;
+    margin: 0%;
+}
+
+.form-button {
+    background-color: #fff;
+    border-color: #d8dee4;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(12, 12, 12, 0.09);
+}
+
+.form-button:hover {
+    background-color: #f6f8f8;
+    border-color: #667680;
+}
+
+.image-responsive {
+    max-width: 20%;
+    height: auto;
+}
+
+.lista-imagenes {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+}
+
+.formulario {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+
+@media screen and (max-width: 800px) {
+     .lista-imagenes, .formulario {
+      width: 100%;
+    }
+}
+
+body {
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 0.75rem;
+    float:initial;
+}
+
+h1 {
+    font-size: 2.25rem;
+    font-size: 5vmin;
+    font-weight: 600;
+    line-height: 1.15;
+}
+
+p {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+b {
+    color: #3559c7;
+    font-weight: 670;
+}

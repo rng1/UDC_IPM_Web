@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Práctica 3 — IPM">    
+    <meta name="author" content="Guillermo, Pelayo, Rodrigo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Práctica 3 — IPM</title>
+</head>
+<body>
+    <h1>Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum.</h1>
+    <div style="overflow: auto;">
+        <section class="texto-principal">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui reperies, inquit, in hoc quidem pertinacem; Cur id non ita fit? Duo Reges: constructio interrete. Tria genera bonorum; Bonum integritas corporis: misera debilitas. Satis est ad hoc responsum.
+            </p>
+            <p>
+                Pauca mutat vel plura sane; Non semper, inquam; Conferam avum tuum Drusum cum C. Quid iudicant sensus? <i>Fortemne possumus dicere eundem illum Torquatum?</i> Mihi, inquam, qui te id ipsum rogavi? <b>Istam voluptatem, inquit, Epicurus ignorat?</b>
+            </p>
+        </section>
+        <section class="lista-imagenes">
+            <ul>
+                <li><img src="media/mono1.jpg" alt="Mono mirando" class="image-responsive"><br>Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba.</li>
+                <li><img src="media/mono2.jpg" alt="Mono lindo" class="image-responsive"><br>Quis, quaeso, illum negat et bonum virum et comem et humanum fuisse?</li>
+                <li><img src="media/mono3.jpg" alt="Mono comiendo" class="image-responsive"><br>Duo Reges: constructio interrete.</li>
+                <li><img src="media/mono4.jpg" alt="Monitos chiquitos" class="image-responsive"><br>Istam voluptatem perpetuam quis potest praestare sapienti?</li>
+                <li><img src="media/mono5.jpg" alt="Mono sonriente" class="image-responsive"><br>Istam voluptatem, inquit, Epicurus ignorat? </li>
+            </ul> 
+        </section>
+        <br>
+        <section class="formulario">
+            <iframe name="frame" style="display:none;"></iframe>
+
+            <form name="form" target="frame" onsubmit="return validateForm()">
+                <label for="text-input">Your name <span style="color:red;">*</span></label><br>
+                <input type="text" id="text-input" name="text-input" placeholder="Enter your name" class="form-button"><br>
+                <p id="name-error" class="error"></p>
+
+                <label for="date-input">Date of birth</label><br>
+                <input type="date" id="date-input" name="date-input" class="form-button"><br>
+
+                <label for="number-input">Input number <span style="color:#b94d37;">*</span></label><br>
+                <input type="number" id="number-input" name="number-input" min="1" max="10" placeholder="Number from 1 to 10" class="form-button"><br>
+                <p id="number-error" class="error"></p>
+            
+                <label for="select-input">Choose a prompt <span style="color:#b94d37;">*</span></label><br>
+                <select id="select-input" name="select-input" required required="" aria-required="true" class="form-button">
+                    <option hidden disabled selected value> Select an option</option>
+                    <option value="landscape">Landscape</option>
+                    <option value="monkey-prompt">Monkey</option>
+                    <option value="arch">Architecture</option>
+                </select><br><br> 
+
+                <input type="submit" value="Submit" class="form-button form-submit-button">
+            </form>
+        </section>
+    </div>
+    <br><br>
+    <footer>
+        Optime, inquam. Traditur, inquit, ab Epicuro ratio neglegendi doloris. Duo Reges: constructio interrete. Sed ego in hoc resisto; Primum quid tu dicis breve?
+    </footer>
+</body>
+</html>
