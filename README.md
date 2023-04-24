@@ -13,9 +13,9 @@ semántico, el diseño _responsive_, o la accesibilidad.
 
 ## Contributors:
 
-- Apellido1 Apellido2, Nombre : github username : udc username
-- Apellido1 Apellido2, Nombre : github username : udc username
-- Apellido1 Apellido2, Nombre : github username : udc username
+- Naranjo González, Rodrigo
+- Fernández Sánchez, Guillermo
+- Vieites Pérez, Pelayo
 
 
 ## Welcome :wave:
